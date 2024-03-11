@@ -19,7 +19,10 @@ nav, footer {
 .navbar-footer-content > a {
 /*   float: left; */
   display: inline-block;
-  padding: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-align: center;
   text-decoration: none;
 }
