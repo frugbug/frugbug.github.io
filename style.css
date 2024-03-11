@@ -116,6 +116,13 @@ img.background-image {
   object-fit: cover;
 }
 
+.header-image-project {
+  margin-left: -48px;
+  width: 85vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
 .profile-picture {
   border-radius: 50%;
   transition: filter 0.3s;
