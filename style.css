@@ -6,6 +6,13 @@ nav, footer {
   padding-left: 7.5vw;
   padding-right: 7.5vw;
 }
+nav {
+  position: fixed;
+  width: 100%;
+}
+.page-wrapper {
+  padding-top: 47px;
+}
 
 .navbar-footer-content > h3 {
   display: inline-block;
@@ -21,16 +28,16 @@ nav, footer {
   display: inline-block;
   padding-left: 12px;
   padding-right: 12px;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: center;
   text-decoration: none;
 }
 
 .navbar-footer-content > p {
 /*   float: left; */
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin: 0px;
 }
 
@@ -51,7 +58,7 @@ nav, footer {
   float: right;
   display: block;
   letter-spacing: 0.2em;
-  transform: scale(175%) translate(-1em, 0em);
+  transform: scale(150%) translate(-0.75em, 0em);
 }
 .social-media-icons > a {
   text-decoration: none;
