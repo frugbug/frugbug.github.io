@@ -1,0 +1,90 @@
+nav, footer {
+  background-color: rgb(48, 48, 48);
+}
+
+.navbar-footer-content {
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+/*   display: inline-block; */
+  padding: 1px;
+}
+
+.navbar-flag {
+  position: absolute;
+  display: inline;
+  transform: translate(70px, 0px) rotate(135deg) scale(1000%,200%);
+  -ms-interpolation-mode: nearest-neighbor; /* IE, only works on <img> tags */
+  image-rendering: crisp-edges;  /* Firefox */
+  image-rendering: pixelated;  /* Chromium + Safari */
+}
+
+.social-media-icons {
+/*   font-size: 150%; */
+  letter-spacing: 0.2em;
+  transform: scale(175%) translate(-1em, 0em);
+}
+.social-media-icons > a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+}
+
+* {
+  font-family: sans-serif;
+  color: #E0E0E0;
+}
+
+::selection {
+  color: rgb(64, 64, 64);
+  background: #ffc1c6;
+/*   background: #ed7892; */
+}
+
+.background-image-container {
+  z-index: -1;
+  position: fixed;
+  top: -55%;
+  left: -55%;
+  width: 210%;
+  height: 210%;
+}
+
+img.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  filter: blur(10px) contrast(50%);
+}
+
+.page-wrapper {
+  background-color: #404040;
+  display: grid;
+  gap: 1em;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+}
+
+.header-image {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  transition: filter 0.3s;
+}
+.profile-picture:hover {
+  filter: blur(10px);
+}
