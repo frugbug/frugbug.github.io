@@ -10,9 +10,6 @@ nav {
   position: fixed;
   width: 100%;
 }
-.page-wrapper {
-  padding-top: 47px;
-}
 
 .navbar-footer-content > h3 {
   display: inline-block;
@@ -110,6 +107,7 @@ img.background-image {
   padding-right: 48px;
   margin-left: 7.5vw;
   margin-right: 7.5vw;
+  padding-top: 47px
 }
 
 .header-image {
