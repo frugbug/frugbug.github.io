@@ -76,6 +76,10 @@ body {
 /*   background: #ed7892; */
 }
 
+.main-wrapper {
+  margin-right: 48px;
+}
+
 .background-image-container {
   z-index: -1;
   position: fixed;
