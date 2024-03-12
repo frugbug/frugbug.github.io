@@ -123,6 +123,28 @@ img.background-image {
   object-fit: cover;
 }
 
+.project-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+.project-info-box {
+  width: 450px;
+  padding: 16px;
+  border: 1px solid;
+  border-color: #E0E0E0;
+  border-radius: 16px;
+}
+.project-info-box > h3 {
+  margin-bottom: 0.25em;
+}
+.project-info-box > p {
+  margin-top: 0.25em;
+}
+.project-info-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
 .profile-picture {
   border-radius: 50%;
   transition: filter 0.3s;
