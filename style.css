@@ -22,7 +22,7 @@ body {
 }
 
 * {
-  font-family: "Noto Sans", serif;
+  font-family: "Noto Sans", sans-serif;
   color: #E0E0E0;
 }
 
@@ -30,10 +30,6 @@ body {
   color: rgb(64, 64, 64);
   background: #ffc1c6;
 /*   background: #ed7892; */
-}
-
-img {
-  background-color: rgb(64, 64, 64);
 }
 
 nav, footer {
@@ -139,7 +135,6 @@ img.background-image {
   display: grid;
   gap: 1em;
   grid-template-rows: auto auto 1fr auto;
-  min-height: 100vh;
   padding-left: 48px;
   padding-right: 48px;
   /* width: 85vw; */
