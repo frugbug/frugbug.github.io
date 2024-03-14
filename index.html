@@ -20,14 +20,14 @@
   </head>
   <body>
     <div class="background-image-container"><img src="media/breeze16/forest.avif" class="background-image"></img></div>
-    <nav class="navbar-footer-content">
+    <nav id="navbar" class="navbar-footer-content">
 <!--       <img src="media/trans-flag.png" class="navbar-flag"></img> -->
       <h3>Laura's site</h3>
       <a href="index.html">Home</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-    <div class="page-wrapper">
+    <div id="navbar-padding" class="page-wrapper page-margins">
       <div class="header-image-container">
         <img src="media/breeze16/bedroom.avif" class="header-image"></img>
       </div>
@@ -46,6 +46,12 @@
         </ul>
       </div>
     </div>
+    <script>
+      var navbarHeight = document.getElementById('navbar').offsetHeight;
+      console.log(navbarHeight);
+      var elementToChange = document.getElementById('navbar-padding');
+      elementToChange.style["padding-top"] = navbarHeight + "px";
+    </script>
     <footer class="navbar-footer-content">
       <p style="text-align:left;">
         &nbsp;

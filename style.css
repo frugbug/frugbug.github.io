@@ -109,7 +109,7 @@ nav {
 }
 
 .main-wrapper {
-  margin-right: 48px;
+  /* margin-right: 48px; */
 }
 
 .background-image-container {
@@ -142,9 +142,12 @@ img.background-image {
   min-height: 100vh;
   padding-left: 48px;
   padding-right: 48px;
+  /* width: 85vw; */
+  /* margin: auto; */
+}
+.page-margins {
   margin-left: 7.5vw;
   margin-right: 7.5vw;
-/*   padding-top: 47px; */
 }
 
 .header-image {
@@ -158,8 +161,9 @@ img.background-image {
   color: rgb(64, 64, 64);
 }
 .header-image-project {
-  margin-left: -48px;
-  width: 85vw;
+  /* margin-left: -48px; */
+  /* width: 85vw; */
+  width: 100%;
   height: 50vh;
   object-fit: cover;
 }

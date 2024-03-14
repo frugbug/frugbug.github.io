@@ -30,10 +30,10 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-    <div id="page-wrapper" class="page-wrapper" style="padding-top:47px;">
-      <div class="header-image-container">
-        <img src="../media/breeze16/spruce.avif" class="header-image-project"></img>
-      </div>
+    <div id="navbar-padding" class="header-image-container page-margins">
+      <img src="../media/breeze16/spruce.avif" class="header-image-project"></img>
+    </div>
+    <div class="page-wrapper page-margins">
       <div class="main-wrapper">
         <h1>Breeze16</h1>
         <p>Breeze16 is a 16x resource pack for Minecraft with many advanced features.</p>
@@ -59,7 +59,7 @@
     <script>
       var navbarHeight = document.getElementById('navbar').offsetHeight;
       console.log(navbarHeight);
-      var elementToChange = document.getElementById('page-wrapper');
+      var elementToChange = document.getElementById('navbar-padding');
       elementToChange.style["padding-top"] = navbarHeight + "px";
     </script>
     <footer class="navbar-footer-content">
