@@ -16,6 +16,7 @@
     <title>Breeze16</title>
     <link rel="icon" href="../favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../css/simple-slideshow-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
   </head>
   <body>
@@ -30,8 +31,24 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-    <div id="navbar-padding" class="header-image-container page-margins">
-      <img src="../media/breeze16/spruce.avif" class="header-image-project"></img>
+    <!-- <div class="header-image-container page-margins" id="navbar-padding"> -->
+      <!-- <img src="../media/breeze16/spruce.avif" class="header-image-project"></img> -->
+    <!-- </div> -->
+    <div id="navbar-padding">
+      <div class="bss-slides page-margins">
+        <figure>
+          <img src="../media/breeze16/spruce.avif" class="slideshow-image"></img>
+        </figure>
+        <figure>
+          <img src="../media/breeze16/foggy.avif" class="slideshow-image"></img>
+        </figure>
+        <figure>
+          <img src="../media/breeze16/house.avif" class="slideshow-image"></img>
+        </figure>
+        <figure>
+          <img src="../media/breeze16/overcast.avif" class="slideshow-image"></img>
+        </figure>
+      </div>
     </div>
     <div class="page-wrapper page-margins">
       <div class="main-wrapper">
@@ -72,5 +89,19 @@
         </span>
       </p>
     </footer>
+    <script src="../scripts/better-simple-slideshow.js"></script>
+    <script>
+      var opts = {
+              //auto-advancing slides? accepts boolean (true/false) or object
+              auto : { 
+                  // speed to advance slides at. accepts number of milliseconds
+                  speed : 2500, 
+                  // pause advancing on mouseover? accepts boolean
+                  pauseOnHover : false 
+              }
+          };
+  
+      makeBSS('.bss-slides', opts);
+    </script>
   </body>
 </html>
