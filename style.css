@@ -43,7 +43,7 @@ nav, footer {
 nav {
   position: fixed;
   width: 100%;
-  /* z-index: 9; */
+  z-index: 9;
 }
 
 .navbar-footer-content > h3 {
