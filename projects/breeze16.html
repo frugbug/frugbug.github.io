@@ -31,10 +31,10 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
-    <!-- <div class="header-image-container page-margins" id="navbar-padding"> -->
-      <!-- <img src="../media/breeze16/spruce.avif" class="header-image-project"></img> -->
-    <!-- </div> -->
     <div id="navbar-padding">
+      <!-- <div class="header-image-container page-margins"> -->
+        <!-- <img src="../media/breeze16/spruce.avif" class="header-image-project"></img> -->
+      <!-- </div> -->
       <div class="bss-slides page-margins">
         <figure>
           <img src="../media/breeze16/spruce.avif" class="slideshow-image"></img>
@@ -73,12 +73,6 @@
         </div>
       </div>
     </div>
-    <script>
-      var navbarHeight = document.getElementById('navbar').offsetHeight;
-      console.log(navbarHeight);
-      var elementToChange = document.getElementById('navbar-padding');
-      elementToChange.style["padding-top"] = navbarHeight + "px";
-    </script>
     <footer class="navbar-footer-content">
       <p style="text-align:left;">
         &nbsp;
@@ -102,6 +96,14 @@
           };
   
       makeBSS('.bss-slides', opts);
+    </script>
+    <script>
+      setTimeout(() => {
+        var navbarHeight = document.getElementById('navbar').offsetHeight;
+        console.log(navbarHeight);
+        var elementToChange = document.getElementById('navbar-padding');
+        elementToChange.style["padding-top"] = navbarHeight + "px";
+      }, 0);
     </script>
   </body>
 </html>

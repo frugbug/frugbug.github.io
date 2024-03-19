@@ -43,7 +43,7 @@ nav, footer {
 nav {
   position: fixed;
   width: 100%;
-  z-index: 9;
+  /* z-index: 9; */
 }
 
 .navbar-footer-content > h3 {
@@ -215,7 +215,7 @@ img.background-image {
 .slideshow-image {
   margin: 0px;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   object-fit: cover;
 }
 
