@@ -89,7 +89,7 @@
               //auto-advancing slides? accepts boolean (true/false) or object
               auto : { 
                   // speed to advance slides at. accepts number of milliseconds
-                  speed : 2500, 
+                  speed : 4000,
                   // pause advancing on mouseover? accepts boolean
                   pauseOnHover : false 
               }
@@ -99,7 +99,7 @@
     </script>
     <script>
       setTimeout(() => {
-        var navbarHeight = document.getElementById('navbar').offsetHeight;
+        var navbarHeight = document.getElementById('navbar').getBoundingClientRect().height;
         console.log(navbarHeight);
         var elementToChange = document.getElementById('navbar-padding');
         elementToChange.style["padding-top"] = navbarHeight + "px";
