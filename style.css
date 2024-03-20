@@ -218,8 +218,10 @@ img.background-image {
   height: 70vh;
   object-fit: cover;
 }
-
 figure {
   margin: 0px;
   padding: 0px;
+}
+.bss-slides {
+  background-color: rgb(64, 64, 64);
 }
