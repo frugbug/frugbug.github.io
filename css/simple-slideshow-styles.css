@@ -1,9 +1,3 @@
-@keyframes hideSlide {
-  0% {opacity: 100%;}
-  99% {opacity: 100%;}
-  100% {opacity: 0%;}
-}
-
 .bss-slides{
   position: relative;
   display: block; 
