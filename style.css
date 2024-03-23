@@ -50,6 +50,8 @@ body {
 * {
   font-family: "Noto Sans", sans-serif;
   color: #E0E0E0;
+  scrollbar-color: rgb(96, 96, 96) rgb(48, 48, 48);
+  scrollbar-width: thin;
 }
 
 h1 {
