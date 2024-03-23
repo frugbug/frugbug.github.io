@@ -168,8 +168,8 @@ nav, footer {
   padding-right: 7.5vw;
 }
 nav {
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0;
   z-index: 9;
 }
 
