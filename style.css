@@ -122,6 +122,7 @@ p {
   list-style: none;
   display: flex;
   flex-direction: column;
+  padding: 0px;
 }
 .contact-list > ul > li {
   display: inline-flex;
