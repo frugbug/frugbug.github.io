@@ -81,7 +81,7 @@ p {
 }
 
 .hello-text-name-container {
-  padding-top: 8em;
+  padding-top: 10vh;
 }
 .hello-text {
   display: inline;
