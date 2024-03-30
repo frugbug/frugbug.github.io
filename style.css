@@ -87,7 +87,7 @@ h3 > a, p > a {
 h3 > a:hover, p > a:hover {
   filter: brightness(1.3) hue-rotate(20deg);
 }
-h3 > a::after {
+h3 > a::after, p > a::after {
   content: "";
   display: block;
   position: absolute;
@@ -100,16 +100,7 @@ h3 > a::after {
   transform: scale(0, 1);
 }
 p > a::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
   height: 1px;
-  top: 1.25em;
-  left: 1px;
-  background: rgb(255, 150, 174);
-  transition: transform 0.1s;
-  transform: scale(0, 1);
 }
 h3 > a:hover::after, p > a:hover::after {
   transform: scale(1, 1);
