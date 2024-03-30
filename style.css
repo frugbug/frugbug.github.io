@@ -96,14 +96,16 @@ h3 > a::after, p > a::after {
   top: 1.25em;
   left: 1px;
   background: rgb(255, 150, 174);
-  transition: transform 0.1s;
+  transition: transform 0.1s, opacity 0.15s;
   transform: scale(0, 1);
+/*   opacity: 0; */
 }
 p > a::after {
   height: 1px;
 }
 h3 > a:hover::after, p > a:hover::after {
   transform: scale(1, 1);
+  opacity: 1;
 }
 
 
@@ -242,14 +244,16 @@ nav {
   top: 0px;
   right: 0px;
   background: rgb(39, 39, 39);
-  transition: transform 0.15s;
+  transition: transform 0.15s, opacity 0.3s;
   transform: scale(0, 1);
   z-index: -1;
   user-select: none;
   pointer-events: none;
+  opacity: 0;
 }
 .navbar-footer-content > div > a:hover::after {
     transform: scale(1, 1);
+    opacity: 1;
 }
 
 
