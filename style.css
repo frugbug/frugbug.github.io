@@ -318,8 +318,8 @@ img.background-image {
   padding-right: 48px;
   /* width: 85vw; */
   /* margin: auto; */
-  height: 100%;
-/*   overflow: hidden; */
+/*   height: 100%; */
+  overflow: hidden;
 }
 .page-margins {
   margin-left: 7.5vw;
