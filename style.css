@@ -264,6 +264,17 @@ nav {
     transform: scale(1, 1);
     opacity: 1;
 }
+#projects-link {
+  padding-right: 3.5em !important;
+  position: relative;
+}
+#projects-link-mask {
+  /* display: inline; */
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: 1;
+}
 
 
 .navbar-flag {
