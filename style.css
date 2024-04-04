@@ -92,7 +92,7 @@ h3 > a::after, p > a::after {
   display: block;
   position: absolute;
   width: 100%;
-  height: 1.5px;
+  height: 2px;
   bottom: 0.03em;
   left: 1px;
   background: rgb(255, 150, 174);
